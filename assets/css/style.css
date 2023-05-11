@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 50px;
+}
+nav ul {
+  display: flex;
+}
+nav ul .orange {
+  color: orange;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+nav .submenu {
+  background-color: white;
+  padding: 40px 0;
+  right: 10px;
+  height: 300px;
+  width: 450px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+nav .submenu .title {
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .submenu .title span {
+  margin: 20px 0;
+  font-size: 25px;
+}
+nav .submenu .title li {
+  font-size: 20px;
+  margin: 10px 0;
+  color: grey;
+  cursor: pointer;
+}
+nav .submenu .title li:hover {
+  color: black;
+  transition: 0.5s;
+}
+nav .submenu h3 {
+  padding: 10px;
+  font-size: 20px;
+}
+nav .hasmenu {
+  position: relative;
+}
+nav .hasmenu p {
+  letter-spacing: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+nav .hasmenu:hover .submenu {
+  display: block;
+}
+nav .container {
+  width: 85%;
+  margin: 0 7.5%;
+}
+nav .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-card {
+  width: 85%;
+  margin: 0 7.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image {
+  position: relative;
+}
+.image img {
+  cursor: pointer;
+  width: 270px;
+  height: 400px;
+  margin: 20px 0;
+}
+.image img:hover {
+  box-shadow: 1px -1px 20px 0px;
+  transition: 0.5s;
+}
+.image .image-title {
+  text-align: center;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.image .image-title p {
+  margin: 5px 0;
+}
+.image .image-title p:hover {
+  color: orangered;
+  transition: 0.5s;
+}
+.image .bal {
+  display: flex;
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 30px;
+  left: 15px;
+  padding: 5px 15px;
+  justify-content: center;
+}
+.image .bal p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image .sale {
+  color: black;
+}
+.image .bg-white {
+  background-color: white;
+}

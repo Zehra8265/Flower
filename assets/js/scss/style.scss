@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+   
+    
+  margin: 50px;
+    ul{
+        .orange{
+            color: orange ;
+        }
+        display: flex;
+        li{
+          
+            list-style: none;
+            a{
+               
+                color: black;
+               text-decoration: none;
+                padding: 10px;
+                &:hover{
+                    color: orange;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+    .submenu{
+        background-color: white;
+   .title{
+    span{
+        margin: 20px 0;
+        font-size: 25px;
+       
+    }
+    li{
+        font-size: 20px;
+        margin: 10px 0;
+        color: grey;
+        cursor: pointer;
+        &:hover{
+            color:black;
+            transition: .5s;
+        }
+    }
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+   }
+      
+h3{
+    padding: 10px;
+    font-size: 20px;
+}
+padding: 40px 0;
+right: 10px;
+    height: 300px;
+        width: 450px;
+        position: absolute;
+        z-index: 1;
+        display: none;
+        
+    }
+    
+    .hasmenu{
+        p{
+            letter-spacing: 5px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+        position: relative;
+        
+       
+        
+    }
+    .hasmenu:hover .submenu{
+        display:block;
+    }
+    .container{
+        width: 85%;
+        margin: 0 7.5%;
+       
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+}.image-card{
+width: 85%;
+margin: 0 7.5%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.image{
+
+   position: relative;
+ 
+    img{
+        cursor: pointer;
+        width: 270px;
+        height: 400px;
+        margin: 20px 0;
+        &:hover{
+           box-shadow: 1px -1px 20px 0px ;
+           transition: 0.5s;
+        }
+    }
+    
+    .image-title{
+        text-align: center;
+        margin: 10px 0;
+        cursor: pointer;
+        p{
+            margin: 5px 0;
+            &:hover{
+                color:orangered;
+                transition: 0.5s;
+            }
+        }
+    }
+    .bal{
+        display: flex;
+        position: absolute;
+       
+        background-color: black;
+        color: white;
+        top: 30px;
+       left: 15px;
+       padding: 5px 15px;
+       justify-content: center;
+        p{
+            font-size: 20px;
+           letter-spacing: 1px;
+            display: flex;
+          align-items: center;
+            justify-content: center;
+            
+        }
+    }
+    .sale{
+      color: black;
+    }
+    .bg-white{
+background-color: white;
+    }
+}
